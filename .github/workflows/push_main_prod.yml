@@ -1,0 +1,14 @@
+name: "Push Main or Production Workflows"
+
+on:
+  push:
+    branches:
+      - main
+      - prod
+
+jobs:
+  push_main_prod:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print Hello world!"
+        run: echo "Hello world"
