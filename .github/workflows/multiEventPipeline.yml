@@ -3,7 +3,7 @@ name: "Multi Event Pipeline"
 on:
     push:
         branches:
-            - master
+            - Master
     
     pull_request:
         branches:
