@@ -1,0 +1,13 @@
+name: "All branch workflow"
+
+on:
+    push:
+        branches:
+            - '*'
+
+jobs:
+    push_all_branches:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "All branches workflow"
+              run: echo "Running all branches workflow"
